@@ -1,7 +1,9 @@
-<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
 	<PropertyGroup>
-		<AssemblyName>MSBuildSample</AssemblyName>
+		<AssemblyName>HelloWorld</AssemblyName>
+		<ProjectGuid>{1BDCAA4B-881D-4609-8CC2-ED7B7D78D343}</ProjectGuid>
 		<OutputPath>Bin\</OutputPath>
+		<OutputType>Exe</OutputType>
 	</PropertyGroup>
 	<ItemGroup>
 		<Compile Include="HelloWorld.cs" />
